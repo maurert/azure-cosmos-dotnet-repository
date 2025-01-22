@@ -5,7 +5,7 @@
         <Product>IEvangelist Azure Cosmos Repository</Product>
         <TargetFrameworks>$(DefaultTargetFrameworks);$(CompatibilityTargetFrameworks)</TargetFrameworks>
         <LangVersion>preview</LangVersion>
-        <Description>This client library enables client applications to connect to Azure Cosmos via a repository pattern around the official Azure Cosmos .NET SDK. Azure Cosmos is a globally distributed, multi-model database service. For more information, refer to http://azure.microsoft.com/services/cosmos-db/.</Description>
+        <Description>This client library enables client applications to connect to Azure Cosmos via a repository pattern around the official Azure Cosmos .NET SDK. This is a forked version and not the official package. Azure Cosmos is a globally distributed, multi-model database service. For more information, refer to http://azure.microsoft.com/services/cosmos-db/.</Description>
         <Copyright>Copyright © IEvangelist. All rights reserved. Licensed under the MIT License.</Copyright>
         <NeutralLanguage>en-US</NeutralLanguage>
         <CurrentDate>$([System.DateTime]::Now.ToString(yyyyMMdd))</CurrentDate>
