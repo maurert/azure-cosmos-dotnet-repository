@@ -17,7 +17,8 @@ class DefaultCosmosThroughputProvider(IOptions<RepositoryOptions> options) : ICo
 
         if (currentItemsOptions is null)
         {
-            return ThroughputProperties.CreateManualThroughput(400);
+            // Return null to use shared database throughput by default
+            return null;
         }
 
         foreach (ContainerOptionsBuilder option in options.Value.GetContainerSharedContainerOptions(itemType))
